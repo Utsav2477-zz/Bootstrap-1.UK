@@ -1,0 +1,82 @@
+body {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5b5a5a;
+    overflow-x: hidden!important;
+    background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+    color: #000;
+    font-family: "Josefin Sans",sans-serif;
+    }
+p{
+	font-size: 18px;
+}
+header{	
+	font-size: 11px;
+	font-family: 'Josefin Sans';    
+    letter-spacing: .2em;
+}
+.parallax-bg{
+	background-image: url(../images/title-img.jpg);
+	height: 600px; 
+	background-attachment: fixed; 
+	background-position:50% 50%;
+	position: static;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.parallax-content{
+	height: 600px;
+}
+.services{
+	padding: 100px 0;
+}
+.services-block{
+	padding-top:60px;
+}
+.services-block-img{
+	height: 268px;
+	overflow: hidden;
+}
+.services-block-left-img{
+	height: 546px;	
+	overflow: hidden;
+}
+.modal-body{
+	font-size: 13px;
+	font-family: 'Hind';
+	letter-spacing: 0;
+}
+.social-media-icon{
+
+}
+.dropdown-menu{
+	top:97%;
+	border-radius:0;
+	border:none;
+}
+.nav-item a{
+	font-size: 11px;
+    line-height: 24px;
+    color: #fff;
+} 
+.parallax-bg2{
+	background-image: url(../images/home-parallax-1.png);
+	height: 116px; 
+	background-attachment: fixed; 
+	background-size: cover;
+	position: static;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+h3{
+	font-size: 22px;
+}
+h5{
+	font-size: 18px;
+    line-height: 1.33em;
+}

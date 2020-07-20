@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zuhaus – A Modern Real Estate and Rental Theme</title>
+		<link rel="icon" href="images/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header class="px-4 bg-dark">
+			<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+			  	<a class="navbar-brand" href="#">
+			  		<img src="images/logo.png" alt="logo" class="img-fluid w-50" />
+			  	</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+
+			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    	<ul class="navbar-nav mr-auto text-uppercase ">
+			      		<li class="nav-item active">
+			        		<a class="nav-link text-warning" href="#">Home <span class="sr-only">(current)</span></a>
+			      		</li>
+			      		<li class="nav-item ">
+			        		<a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+			        		<div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
+			          			<a class="dropdown-item" href="#">Action</a>
+			          			<a class="dropdown-item" href="#">Another action</a>
+			          			<a class="dropdown-item" href="#">Something else here</a>
+			        		</div>
+			      		</li>
+			      		<li class="nav-item dropdown">
+			        		<a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          			Listings
+			        		</a>
+			        		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          			<a class="dropdown-item" href="#">Action</a>
+			          			<a class="dropdown-item" href="#">Another action</a>
+			          			<div class="dropdown-divider"></div>
+			          			<a class="dropdown-item" href="#">Something else here</a>
+			        		</div>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link text-white" href="#">Blog</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link text-white" href="#">Shop</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link text-white" href="#">Elements</a>
+			      		</li>
+			    	</ul>
+			    	<button class="btn btn-outline-warning my-2 my-sm-0 mr-1 text-white" type="button" data-toggle="modal" data-target="#exampleModal">
+			    		<span class="mr-2">Add Listing</span>
+			    		<i class="fas fa-plus fa-1x"></i>
+			    	</button>
+			    	<!-- Button trigger modal -->
+					<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+					  Launch demo modal
+					</button> -->
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+					  	<div class="modal-dialog" role="document" style="width: 370px;">
+					    	<div class="modal-content">
+					      		<div class="modal-header no-gutters p-0 border-bottom-0">
+					        		<ul class="nav nav-tabs" id="myTab" role="tablist">
+									  	<li class="nav-item">
+									    	<a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">Login</a>
+									  	</li>
+									  	<li class="nav-item">
+									    	<a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">Register</a>
+									  	</li>
+									</ul>
+					      		</div>
+					      		<div class="modal-body">
+									<div class="tab-content" id="myTabContent">
+									  	<div class="tab-pane fade show active p-3 text-center" id="login" role="tabpanel" aria-labelledby="login-tab">
+									  		<form>
+											  	<div class="form-group">			    	
+											    	<input type="text" class="form-control"placeholder="Username">
+											  	</div>
+											  	<div class="form-group">			    	
+											    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+											  	</div>
+											  	<div class="form-check mb-2 text-left">
+											    	<input type="checkbox" class="form-check-input" id="exampleCheck1">
+											    	<label class="form-check-label text-dark" for="exampleCheck1">Remember Me</label>
+											  	</div>
+											  	<a href="#" class="text-secondary text-left d-block mb-2">Lost Your Password?</a>
+											  	<button type="submit" class="btn btn-block mb-3 btn-warning">LOGIN</button>
+											</form>
+											<span class="text-secondary d-block mb-2 ">Connect with Social Networks</span>
+											<button type="button" class="btn btn-outline-secondary rounded-circle text-center my-3">
+												<i class="fab fa-facebook-f"></i>
+											</button>
+											<span class="text-secondary d-block mb-2">By creating an account you are</span>
+											<span class="text-secondary d-block mb-2">accepting our <a href="#"><u>Terms & Conditions</u></a></span>
+									  	</div>
+									  	<div class="tab-pane fade p-3 text-center" id="register" role="tabpanel" aria-labelledby="register-tab">
+									  		<form>
+											  	<div class="form-group">			    	
+											    	<input type="text" class="form-control"placeholder="Username">
+											  	</div>
+											  	<div class="form-group">			    	
+											    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+											  	</div>
+											  	<div class="form-check mb-2 text-left">
+											    	<input type="checkbox" class="form-check-input" id="exampleCheck1">
+											    	<label class="form-check-label text-dark" for="exampleCheck1">Remember Me</label>
+											  	</div>
+											  	<a href="#" class="text-secondary text-left d-block mb-2">Lost Your Password?</a>
+											  	<button type="submit" class="btn btn-block mb-3 btn-warning">LOGIN</button>
+											</form>
+									  	</div>
+									</div>
+					      		</div>
+					    	</div>
+					  	</div>
+					</div>
+			    	<!-- <button class="btn btn-outline-warning my-2 my-sm-0 mr-1 text-white" type="button">
+			    		<span class="mr-2">Add Listing</span>
+			    		<i class="fas fa-plus fa-1x"></i>
+			    	</button> -->
+			      	<button class="btn btn-outline-light my-2 my-sm-0" type="button">
+			      		<i class="far fa-user"></i>
+			      	</button>
+			    	
+			  	</div>
+			</nav>
+		</header>
+		<!-- Best Offers This Week -->
+		<section>
+			<div class="parallax-bg">
+				<div class="parallax-content">
+					
+				</div>
+			</div>
+		</section>
+		<!-- How It Works -->
+		<section>
+			<div class="container services">
+				<div class="row justify-content-center">
+					<div class="col-8 text-center">
+						<h2 class="text-dark m-0">Best Offers This Week</h2>
+						<p class="mt-2">Lorem ipsum dolor sit amet, atqui sanctus delectus in duo. Purto fuisset sed et.</p>
+					</div>
+				</div>
+				<div class="row services-block no-gutters">
+					<div class="col-9 px-2">
+						<div class="row mb-2 no-gutters">
+							<div class="col-8 services-block-img px-2">
+								<a href="#">
+									<img src="images/property-1.jpg" alt="property-1" class="img-fluid">
+								</a>
+							</div>
+							<div class="col-4 services-block-img ">
+								<a href="#">
+									<img src="images/property-2.jpg" alt="property-1" class="img-fluid">
+								</a>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-4 services-block-img px-2">
+								<a href="#">
+									<img src="images/property-3.jpg" alt="property-1" class="img-fluid">
+								</a>
+							</div>
+							<div class="col-8 services-block-img">
+								<a href="#">
+									<img src="images/property-1.jpg" alt="property-1" class="img-fluid">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 services-block-left-img">
+						<a href="#">
+							<img src="images/property-3.jpg" alt="property-1" class="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- services -->
+		<section>
+			<div class="container services">
+				<div class="row justify-content-center">
+					<div class="col-8 text-center">
+						<h2 class="text-dark m-0">See How It Works</h2>
+						<p class="mt-2">Lorem ipsum dolor sit amet, atqui sanctus delectus in duo. Purto fuisset sed et.</p>
+					</div>
+				</div>
+				<div class="row text-center align-items-center pt-5">
+					<div class="col-3">
+						<img src="images/home-process-img-1.png" class="img-fluid" alt="home-process-img-1"/>
+						<h5>Choose a Category</h5>
+						<span>Feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent</span>
+					</div>
+					<div class="col">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="3.303px" viewBox="0 0 123.535 3.303" enable-background="new 0 0 123.535 3.303" xml:space="preserve">
+							<g>
+								<path d="M1.597,0C0.671,0,0,0.694,0,1.651c0,0.942,0.679,1.652,1.579,1.652c0.925,0,1.597-0.694,1.597-1.652
+								                                C3.176,0.694,2.511,0,1.597,0z"></path>
+								<path d="M16.642,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.579,1.652c0.925,0,1.597-0.694,1.597-1.652
+								                                C18.22,0.694,17.556,0,16.642,0z"></path>
+								<path d="M31.687,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.579,1.652c0.925,0,1.597-0.694,1.597-1.652
+								                                C33.265,0.694,32.601,0,31.687,0z"></path>
+								<path d="M46.732,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.579,1.652c0.925,0,1.597-0.694,1.597-1.652
+								                                C48.31,0.694,47.646,0,46.732,0z"></path>
+								<path d="M61.777,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.579,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C63.355,0.694,62.691,0,61.777,0z"></path>
+								<path d="M76.822,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.678,1.652,1.578,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C78.4,0.694,77.736,0,76.822,0z"></path>
+								<path d="M91.867,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.578,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C93.445,0.694,92.781,0,91.867,0z"></path>
+								<path d="M106.912,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.578,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C108.49,0.694,107.826,0,106.912,0z"></path>
+								<path d="M121.957,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.578,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C123.535,0.694,122.871,0,121.957,0z"></path>
+							</g>
+						</svg>
+					</div>
+					<div class="col-3">
+						<img src="images/home-process-img-2.png" class="img-fluid" alt="home-process-img-2"/>
+						<h5>Find Real Estate</h5>
+						<span>Feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent</span>
+					</div>
+					<div class="col">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="3.303px" viewBox="0 0 123.535 3.303" enable-background="new 0 0 123.535 3.303" xml:space="preserve">
+							<g>
+								<path d="M1.597,0C0.671,0,0,0.694,0,1.651c0,0.942,0.679,1.652,1.579,1.652c0.925,0,1.597-0.694,1.597-1.652
+								                                C3.176,0.694,2.511,0,1.597,0z"></path>
+								<path d="M16.642,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.579,1.652c0.925,0,1.597-0.694,1.597-1.652
+								                                C18.22,0.694,17.556,0,16.642,0z"></path>
+								<path d="M31.687,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.579,1.652c0.925,0,1.597-0.694,1.597-1.652
+								                                C33.265,0.694,32.601,0,31.687,0z"></path>
+								<path d="M46.732,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.579,1.652c0.925,0,1.597-0.694,1.597-1.652
+								                                C48.31,0.694,47.646,0,46.732,0z"></path>
+								<path d="M61.777,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.579,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C63.355,0.694,62.691,0,61.777,0z"></path>
+								<path d="M76.822,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.678,1.652,1.578,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C78.4,0.694,77.736,0,76.822,0z"></path>
+								<path d="M91.867,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.578,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C93.445,0.694,92.781,0,91.867,0z"></path>
+								<path d="M106.912,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.578,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C108.49,0.694,107.826,0,106.912,0z"></path>
+								<path d="M121.957,0c-0.926,0-1.598,0.694-1.598,1.651c0,0.942,0.679,1.652,1.578,1.652c0.926,0,1.598-0.694,1.598-1.652
+								                                C123.535,0.694,122.871,0,121.957,0z"></path>
+							</g>
+						</svg>
+					</div>					
+					<div class="col-3">
+						<img src="images/home-process-img-3.png" class="img-fluid" alt="home-process-img-3"/>
+						<h5>Take the Keys</h5>
+						<span>Feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- subscribe -->
+		<section>
+			<div class="parallax-bg2">
+				<div class="container">
+					<div class="row justify-content-between align-items-center" style="height: 116px;">
+						<h3>Don’t see the city you were looking for? Help us out by suggesting!</h3>
+						<button type="button" class="btn btn-light text-dark font-weight-bold px-5 text-uppercase" style="line-height: 32px; font-size: 11px; letter-spacing: 4px;">Suggest City</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- neighborhoods -->
+		<section>
+			<div class="container services">
+				<div class="row justify-content-center">
+					<div class="col-8 text-center">
+						<h2 class="text-dark m-0">Select a city to begin exploring its neighborhoods</h2>
+						<p class="mt-2">Lorem ipsum dolor sit amet, atqui sanctus delectus in duo. Purto fuisset sed et.</p>
+					</div>
+				</div>
+				<div class="row services-block no-gutters">
+					
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
